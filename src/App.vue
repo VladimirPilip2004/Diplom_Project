@@ -8,7 +8,7 @@ const store = useCartStore();
 onMounted(() => {
   store.getCartInLocalStorage();
 });
-
+ 
 </script>
 
 <template>
